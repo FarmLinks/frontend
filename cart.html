@@ -118,5 +118,20 @@
         </div>
         
     </div>
+    <script>
+        function applyDiscount() {
+            const selectedOption = document.getElementById('shippingOption').value;
+            const enteredCode = document.getElementById('code').value;
+    
+            // Perform logic to apply discount or handle code here
+            // You can make an API call to the backend to validate the code
+    
+            console.log('Selected Shipping Option:', selectedOption);
+            console.log('Entered Code:', enteredCode);
+            
+            // Example: Display a message
+            alert('Discount applied successfully!');
+        }
+    </script>
 </body>
 </html>
