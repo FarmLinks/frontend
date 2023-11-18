@@ -7,9 +7,7 @@
 .navbar-brand{
     font-size: 2rem;
     color: green;
-    font-weight: bolder;
-   
-   
+    font-weight: bolder;  
 
 }
 .navbar-brand:hover{
@@ -20,17 +18,10 @@
     margin-left: 10px;
     color: black;
     text-transform: uppercase;
-  
-
-    
-  
 }
 .nav-link:hover{
     color: black;
 }
-
-
-
 .search{
     height: 40px;
     width: 80%;
