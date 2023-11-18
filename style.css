@@ -8,7 +8,8 @@
     font-size: 2rem;
     color: green;
     font-weight: bolder;
-    position: fixed;
+   
+   
 
 }
 .navbar-brand:hover{
@@ -19,10 +20,15 @@
     margin-left: 10px;
     color: black;
     text-transform: uppercase;
+  
+
+    
+  
 }
 .nav-link:hover{
     color: black;
 }
+
 
 
 .search{
@@ -32,6 +38,7 @@
     outline: none;
     margin-right: -35px;
     border: 2px solid green;
+  
 }
 .btn0{
     height: 40px;
@@ -133,19 +140,17 @@ a:hover{
     margin-top: 15px;
     color: green;
 }
-.main1{
-    background: url(./images/img12.jpg) no-repeat;
-    background-size: cover;
-    height: 60vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
 h1{
     font-weight: 700;
 }
 h4{
     font-weight: 700;
     font-size: 40px;
+}
+h4 a{
+    text-decoration: none;
+    font-weight: 400;
 }
 /* product page */
 body{margin-top:20px;
@@ -182,6 +187,7 @@ body{margin-top:20px;
     
     .prod-cat li a {
         color: #3b3b3b;
+        
     }
     
     .prod-cat li ul {
@@ -220,22 +226,19 @@ body{margin-top:20px;
         position: relative;
     }
     .adtocart {
-        background: #fc5959;
+    
         width: 50px;
         height: 50px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
-        color: #fff;
         display: inline-block;
         text-align: center;
-        border: 3px solid #fff;
         left: 45%;
         bottom: -25px;
         position: absolute;
     }
     
     .adtocart i{
-        color: #fff;
         font-size: 25px;
         line-height: 42px;
     }
@@ -248,7 +251,7 @@ body{margin-top:20px;
     }
     
     .product-list .price {
-        color:#fc5959 ;
+        color:green ;
         font-size: 15px;
     }
     
@@ -309,4 +312,135 @@ body{margin-top:20px;
         font-size: 18px;
         font-weight: 300;
     }
+  .cart{
+    height: 60px;
+    margin-left: 40px;
+  }
     /* end of product page */
+
+    /* join sacco form styling */
+
+
+.wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+    height: 600px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 5px 25px 35px #3535356b;
+}
+
+.wrapper .bg-yellow {
+    background-color: green;
+    height: 100%;
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+.wrapper .bg-yellow .text-white {
+    font-size: 3rem;
+}
+
+.wrapper .bg-yellow .cursive {
+    font-family: 'Kalam', cursive;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.wrapper .contact-form {
+    width: 100%;
+    padding: 40px 80px 40px 50px;
+}
+
+.wrapper .contact-form .h3 {
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.wrapper .contact-form label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.wrapper .contact-form textarea {
+    height: 120px;
+}
+
+.wrapper .contact-form .form-control {
+    background-color: #e7e7e7;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+
+.wrapper .contact-form .btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.wrapper .contact-form .btn.btn-default {
+    color: green;
+}
+
+
+.wrapper .contact-form .btn.btn-primary {
+    background: green;
+    border: none;
+    padding: 8px 18px;
+    box-shadow: 0 8px 12px #3535356b;
+}
+
+.wrapper .contact-form .btn.btn-primary:hover {
+    background-color: white;
+    color: green;
+}
+
+.modal .modal-content .modal-header .fas {
+    color: #F50057;
+}
+
+@media(max-width: 900.5px) {
+    .wrapper {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 575.5px) {
+
+    .wrapper .contact-form {
+        padding: 40px;
+    }
+
+    .wrapper .bg-yellow {
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 496px) {
+
+    .wrapper .bg-yellow {
+        display: none;
+    }
+
+}
+
+@media(max-width: 350px) {
+
+    .wrapper {
+        height: 570px;
+    }
+
+    .wrapper .contact-form {
+        padding: 20px;
+    }
+}
+  
